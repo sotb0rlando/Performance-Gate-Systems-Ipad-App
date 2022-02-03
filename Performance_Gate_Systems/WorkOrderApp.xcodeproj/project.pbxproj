@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04108D98239A28A500AE7388 /* DatePickerPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04108D97239A28A500AE7388 /* DatePickerPopupViewController.swift */; };
+		04108D9A239A45B100AE7388 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04108D99239A45B100AE7388 /* CollectionViewCell.swift */; };
+		04477887239925E4008CC0F4 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04477886239925E4008CC0F4 /* YPDrawSignatureView.swift */; };
+		044778892399264E008CC0F4 /* BeforeWorkVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044778882399264E008CC0F4 /* BeforeWorkVc.swift */; };
+		0447788B23992669008CC0F4 /* AfterWorkVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447788A23992669008CC0F4 /* AfterWorkVc.swift */; };
+		0447788D23992683008CC0F4 /* SignatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447788C23992682008CC0F4 /* SignatVc.swift */; };
+		0450C4F623F579900042C272 /* HtmlPdfExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450C4F523F579900042C272 /* HtmlPdfExtension.swift */; };
+		0450C4F823F57EEB0042C272 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450C4F723F57EEB0042C272 /* dummy.swift */; };
+		04878A3823F67186005ABB8B /* pdf.html in Resources */ = {isa = PBXBuildFile; fileRef = 04878A3723F67186005ABB8B /* pdf.html */; };
+		048D176A23B5D97A00DE0E4C /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D176923B5D97A00DE0E4C /* MyExtensions.swift */; };
+		0493C866239BAFC200AC5B15 /* PdfVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C865239BAFC200AC5B15 /* PdfVc.swift */; };
+		04A5DA80239A802C008DD527 /* CommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5DA7D239A802B008DD527 /* CommunicationManager.swift */; };
+		04A5DA81239A802C008DD527 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5DA7E239A802B008DD527 /* Utils.swift */; };
+		04A5DA82239A802C008DD527 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5DA7F239A802C008DD527 /* BaseViewController.swift */; };
+		04A5DA84239A803C008DD527 /* AppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5DA83239A803B008DD527 /* AppUrl.swift */; };
+		04AED55D23A126CC00717938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AED55C23A126CB00717938 /* SceneDelegate.swift */; };
+		04DC70C22398E465002E711A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70C12398E465002E711A /* AppDelegate.swift */; };
+		04DC70C62398E465002E711A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70C52398E465002E711A /* ViewController.swift */; };
+		04DC70C92398E465002E711A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC70C72398E465002E711A /* Main.storyboard */; };
+		04DC70CC2398E465002E711A /* WorkOrderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70CA2398E465002E711A /* WorkOrderApp.xcdatamodeld */; };
+		04DC70CE2398E472002E711A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC70CD2398E472002E711A /* Assets.xcassets */; };
+		04DC70D12398E472002E711A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC70CF2398E472002E711A /* LaunchScreen.storyboard */; };
+		04DC70DA2398F81D002E711A /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70D92398F81D002E711A /* UIViewX.swift */; };
+		04DC70DC23990665002E711A /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70DB23990665002E711A /* UITextFieldX.swift */; };
+		04DC70DE23991010002E711A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70DD23991010002E711A /* CellView.swift */; };
+		04DC70E0239911D4002E711A /* FormVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70DF239911D4002E711A /* FormVcViewController.swift */; };
+		04DC70E223991CA0002E711A /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC70E123991C9F002E711A /* UIButtonX.swift */; };
+		1956F07FEEA60FADA28888C5 /* Pods_WorkOrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584BBF8BE8F854C681408146 /* Pods_WorkOrderApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04108D97239A28A500AE7388 /* DatePickerPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerPopupViewController.swift; sourceTree = "<group>"; };
+		04108D99239A45B100AE7388 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		04477886239925E4008CC0F4 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		044778882399264E008CC0F4 /* BeforeWorkVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeWorkVc.swift; sourceTree = "<group>"; };
+		0447788A23992669008CC0F4 /* AfterWorkVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterWorkVc.swift; sourceTree = "<group>"; };
+		0447788C23992682008CC0F4 /* SignatVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatVc.swift; sourceTree = "<group>"; };
+		0450C4F523F579900042C272 /* HtmlPdfExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlPdfExtension.swift; sourceTree = "<group>"; };
+		0450C4F723F57EEB0042C272 /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
+		04878A3723F67186005ABB8B /* pdf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pdf.html; sourceTree = "<group>"; };
+		048D176923B5D97A00DE0E4C /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		0493C865239BAFC200AC5B15 /* PdfVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfVc.swift; sourceTree = "<group>"; };
+		04A5DA7D239A802B008DD527 /* CommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationManager.swift; sourceTree = "<group>"; };
+		04A5DA7E239A802B008DD527 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		04A5DA7F239A802C008DD527 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04A5DA83239A803B008DD527 /* AppUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUrl.swift; sourceTree = "<group>"; };
+		04AED55C23A126CB00717938 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04DC70BE2398E465002E711A /* WorkOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC70C12398E465002E711A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DC70C52398E465002E711A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DC70C82398E465002E711A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DC70CB2398E465002E711A /* WorkOrderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkOrderApp.xcdatamodel; sourceTree = "<group>"; };
+		04DC70CD2398E472002E711A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DC70D02398E472002E711A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DC70D22398E472002E711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC70D92398F81D002E711A /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		04DC70DB23990665002E711A /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		04DC70DD23991010002E711A /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		04DC70DF239911D4002E711A /* FormVcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVcViewController.swift; sourceTree = "<group>"; };
+		04DC70E123991C9F002E711A /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		097D6AA9ACB8A6C4295766ED /* Pods-WorkOrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkOrderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkOrderApp/Pods-WorkOrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		584BBF8BE8F854C681408146 /* Pods_WorkOrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkOrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684E1619F6D90EEE76E37C3 /* Pods-WorkOrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkOrderApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkOrderApp/Pods-WorkOrderApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DC70BB2398E465002E711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1956F07FEEA60FADA28888C5 /* Pods_WorkOrderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DC70B52398E465002E711A = {
+			isa = PBXGroup;
+			children = (
+				04DC70C02398E465002E711A /* WorkOrderApp */,
+				04DC70BF2398E465002E711A /* Products */,
+				9EB4DE3FA36D481FBD37A3B0 /* Pods */,
+				E3095D3A58D1B0B0BD348251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DC70BF2398E465002E711A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DC70BE2398E465002E711A /* WorkOrderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DC70C02398E465002E711A /* WorkOrderApp */ = {
+			isa = PBXGroup;
+			children = (
+				04878A3723F67186005ABB8B /* pdf.html */,
+				048D176923B5D97A00DE0E4C /* MyExtensions.swift */,
+				04AED55C23A126CB00717938 /* SceneDelegate.swift */,
+				04A5DA7F239A802C008DD527 /* BaseViewController.swift */,
+				04A5DA7D239A802B008DD527 /* CommunicationManager.swift */,
+				04A5DA83239A803B008DD527 /* AppUrl.swift */,
+				04A5DA7E239A802B008DD527 /* Utils.swift */,
+				04DC70D82398F805002E711A /* dx */,
+				04DC70CA2398E465002E711A /* WorkOrderApp.xcdatamodeld */,
+				04DC70C12398E465002E711A /* AppDelegate.swift */,
+				04DC70C52398E465002E711A /* ViewController.swift */,
+				044778882399264E008CC0F4 /* BeforeWorkVc.swift */,
+				0447788A23992669008CC0F4 /* AfterWorkVc.swift */,
+				04DC70DF239911D4002E711A /* FormVcViewController.swift */,
+				0447788C23992682008CC0F4 /* SignatVc.swift */,
+				0493C865239BAFC200AC5B15 /* PdfVc.swift */,
+				04DC70DD23991010002E711A /* CellView.swift */,
+				04108D99239A45B100AE7388 /* CollectionViewCell.swift */,
+				04108D97239A28A500AE7388 /* DatePickerPopupViewController.swift */,
+				0450C4F523F579900042C272 /* HtmlPdfExtension.swift */,
+				0450C4F723F57EEB0042C272 /* dummy.swift */,
+				04DC70C72398E465002E711A /* Main.storyboard */,
+				04DC70CD2398E472002E711A /* Assets.xcassets */,
+				04DC70CF2398E472002E711A /* LaunchScreen.storyboard */,
+				04DC70D22398E472002E711A /* Info.plist */,
+			);
+			path = WorkOrderApp;
+			sourceTree = "<group>";
+		};
+		04DC70D82398F805002E711A /* dx */ = {
+			isa = PBXGroup;
+			children = (
+				04DC70D92398F81D002E711A /* UIViewX.swift */,
+				04DC70E123991C9F002E711A /* UIButtonX.swift */,
+				04DC70DB23990665002E711A /* UITextFieldX.swift */,
+				04477886239925E4008CC0F4 /* YPDrawSignatureView.swift */,
+			);
+			path = dx;
+			sourceTree = "<group>";
+		};
+		9EB4DE3FA36D481FBD37A3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				097D6AA9ACB8A6C4295766ED /* Pods-WorkOrderApp.debug.xcconfig */,
+				F684E1619F6D90EEE76E37C3 /* Pods-WorkOrderApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3095D3A58D1B0B0BD348251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584BBF8BE8F854C681408146 /* Pods_WorkOrderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DC70BD2398E465002E711A /* WorkOrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC70D52398E472002E711A /* Build configuration list for PBXNativeTarget "WorkOrderApp" */;
+			buildPhases = (
+				6BD76F9F7BF43B041B08F514 /* [CP] Check Pods Manifest.lock */,
+				04DC70BA2398E465002E711A /* Sources */,
+				04DC70BB2398E465002E711A /* Frameworks */,
+				04DC70BC2398E465002E711A /* Resources */,
+				72453DA41B65D06CD1860A37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkOrderApp;
+			productName = WorkOrderApp;
+			productReference = 04DC70BE2398E465002E711A /* WorkOrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DC70B62398E465002E711A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04DC70BD2398E465002E711A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04DC70B92398E465002E711A /* Build configuration list for PBXProject "WorkOrderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DC70B52398E465002E711A;
+			productRefGroup = 04DC70BF2398E465002E711A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DC70BD2398E465002E711A /* WorkOrderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DC70BC2398E465002E711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC70D12398E472002E711A /* LaunchScreen.storyboard in Resources */,
+				04878A3823F67186005ABB8B /* pdf.html in Resources */,
+				04DC70CE2398E472002E711A /* Assets.xcassets in Resources */,
+				04DC70C92398E465002E711A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BD76F9F7BF43B041B08F514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkOrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72453DA41B65D06CD1860A37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkOrderApp/Pods-WorkOrderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkOrderApp/Pods-WorkOrderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkOrderApp/Pods-WorkOrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DC70BA2398E465002E711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048D176A23B5D97A00DE0E4C /* MyExtensions.swift in Sources */,
+				0447788D23992683008CC0F4 /* SignatVc.swift in Sources */,
+				04DC70DC23990665002E711A /* UITextFieldX.swift in Sources */,
+				0450C4F623F579900042C272 /* HtmlPdfExtension.swift in Sources */,
+				04DC70E0239911D4002E711A /* FormVcViewController.swift in Sources */,
+				04DC70C62398E465002E711A /* ViewController.swift in Sources */,
+				04DC70CC2398E465002E711A /* WorkOrderApp.xcdatamodeld in Sources */,
+				04A5DA82239A802C008DD527 /* BaseViewController.swift in Sources */,
+				04108D9A239A45B100AE7388 /* CollectionViewCell.swift in Sources */,
+				0493C866239BAFC200AC5B15 /* PdfVc.swift in Sources */,
+				04108D98239A28A500AE7388 /* DatePickerPopupViewController.swift in Sources */,
+				04DC70C22398E465002E711A /* AppDelegate.swift in Sources */,
+				04DC70E223991CA0002E711A /* UIButtonX.swift in Sources */,
+				04A5DA80239A802C008DD527 /* CommunicationManager.swift in Sources */,
+				0450C4F823F57EEB0042C272 /* dummy.swift in Sources */,
+				0447788B23992669008CC0F4 /* AfterWorkVc.swift in Sources */,
+				04477887239925E4008CC0F4 /* YPDrawSignatureView.swift in Sources */,
+				04A5DA84239A803C008DD527 /* AppUrl.swift in Sources */,
+				04AED55D23A126CC00717938 /* SceneDelegate.swift in Sources */,
+				04DC70DA2398F81D002E711A /* UIViewX.swift in Sources */,
+				044778892399264E008CC0F4 /* BeforeWorkVc.swift in Sources */,
+				04A5DA81239A802C008DD527 /* Utils.swift in Sources */,
+				04DC70DE23991010002E711A /* CellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04DC70C72398E465002E711A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DC70C82398E465002E711A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DC70CF2398E472002E711A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DC70D02398E472002E711A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DC70D32398E472002E711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DC70D42398E472002E711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DC70D62398E472002E711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097D6AA9ACB8A6C4295766ED /* Pods-WorkOrderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62RTG4C67;
+				INFOPLIST_FILE = WorkOrderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrinkcom.WorkOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DC70D72398E472002E711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F684E1619F6D90EEE76E37C3 /* Pods-WorkOrderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L62RTG4C67;
+				INFOPLIST_FILE = WorkOrderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrinkcom.WorkOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DC70B92398E465002E711A /* Build configuration list for PBXProject "WorkOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC70D32398E472002E711A /* Debug */,
+				04DC70D42398E472002E711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DC70D52398E472002E711A /* Build configuration list for PBXNativeTarget "WorkOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC70D62398E472002E711A /* Debug */,
+				04DC70D72398E472002E711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04DC70CA2398E465002E711A /* WorkOrderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04DC70CB2398E465002E711A /* WorkOrderApp.xcdatamodel */,
+			);
+			currentVersion = 04DC70CB2398E465002E711A /* WorkOrderApp.xcdatamodel */;
+			path = WorkOrderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04DC70B62398E465002E711A /* Project object */;
+}

@@ -1,0 +1,464 @@
+2019-12-27 06:39:53 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f969c7ca1e0; archive(resolved)='<IDEArchive: 0x7f969b8b1850>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f969c7ca1e0; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f969d409c90; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f969d6d0c50; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f967fa69a10; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f967f940500; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f969e1374c0; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f969d053550; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f969c407d70; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f967fa7c7d0; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f96ab52fc40; teamID='4AZTABRHYP', teamName='Phidelia Mwangangi', teamType='Individual', username='myshuleapp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f969c2a0780; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='(null)'>
+	<IDEDistributionContext: 0x7f969e2f4750; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='(null)'>
+	<IDEDistributionContext: 0x7f969c71e9e0; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9693dbb020>', team='(null)'>
+	<IDEDistributionContext: 0x7f969cf021e0; archive = '<IDEArchive: 0x7f969b8b1850>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f969c7ca1e0>
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionCopyItemStep
+2019-12-27 06:39:53 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app'
+2019-12-27 06:39:53 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app 
+2019-12-27 06:39:53 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-12-27 06:39:53 +0000  17155 bytes for ./_CodeSignature/CodeResources
+2019-12-27 06:39:53 +0000  copying file ./WorkOrderApp ... 
+2019-12-27 06:39:53 +0000  1938720 bytes for ./WorkOrderApp
+copying file ./AppIcon60x60@2x.png ... 
+2019-12-27 06:39:53 +0000  15466 bytes for ./AppIcon60x60@2x.png
+copying file ./Base.lproj/Main.storyboardc/AfterWorkVc.nib ... 
+1105 bytes for ./Base.lproj/Main.storyboardc/AfterWorkVc.nib
+copying file ./Base.lproj/Main.storyboardc/DatePickerPopupViewController.nib ... 
+1063 bytes for ./Base.lproj/Main.storyboardc/DatePickerPopupViewController.nib
+copying file ./Base.lproj/Main.storyboardc/SignatVc.nib ... 
+1020 bytes for ./Base.lproj/Main.storyboardc/SignatVc.nib
+copying file ./Base.lproj/Main.storyboardc/hTq-JW-TAL-view-UvZ-hK-JSy.nib ... 
+11110 bytes for ./Base.lproj/Main.storyboardc/hTq-JW-TAL-view-UvZ-hK-JSy.nib
+copying file ./Base.lproj/Main.storyboardc/PdfVc.nib ... 
+2019-12-27 06:39:53 +0000  1014 bytes for ./Base.lproj/Main.storyboardc/PdfVc.nib
+copying file ./Base.lproj/Main.storyboardc/rWH-ud-Hdd-view-Oa7-4g-S9Z.nib ... 
+2019-12-27 06:39:53 +0000  6373 bytes for ./Base.lproj/Main.storyboardc/rWH-ud-Hdd-view-Oa7-4g-S9Z.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-PFr-RQ-bRP.nib ... 
+2019-12-27 06:39:53 +0000  1828 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-PFr-RQ-bRP.nib
+copying file ./Base.lproj/Main.storyboardc/BeforeWorkVc.nib ... 
+2019-12-27 06:39:53 +0000  1107 bytes for ./Base.lproj/Main.storyboardc/BeforeWorkVc.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-12-27 06:39:53 +0000  34380 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/dpu-97-vbT-view-WXr-AL-acn.nib ... 
+2019-12-27 06:39:53 +0000  11436 bytes for ./Base.lproj/Main.storyboardc/dpu-97-vbT-view-WXr-AL-acn.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/Main.storyboardc/FormVcViewController.nib ... 
+2019-12-27 06:39:53 +0000  1045 bytes for ./Base.lproj/Main.storyboardc/FormVcViewController.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/Main.storyboardc/ay0-di-PYj-view-TZW-EI-8dL.nib ... 
+2019-12-27 06:39:53 +0000  10865 bytes for ./Base.lproj/Main.storyboardc/ay0-di-PYj-view-TZW-EI-8dL.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-27 06:39:53 +0000  511 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/Main.storyboardc/fNW-Yl-nkm-view-PnK-2G-WUc.nib ... 
+2019-12-27 06:39:53 +0000  5335 bytes for ./Base.lproj/Main.storyboardc/fNW-Yl-nkm-view-PnK-2G-WUc.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-12-27 06:39:53 +0000  2015 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-12-27 06:39:53 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-12-27 06:39:53 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-12-27 06:39:53 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-12-27 06:39:53 +0000  copying file ./WorkOrderApp.momd/WorkOrderApp.omo ... 
+2019-12-27 06:39:53 +0000  1664 bytes for ./WorkOrderApp.momd/WorkOrderApp.omo
+2019-12-27 06:39:53 +0000  copying file ./WorkOrderApp.momd/VersionInfo.plist ... 
+2019-12-27 06:39:53 +0000  207 bytes for ./WorkOrderApp.momd/VersionInfo.plist
+2019-12-27 06:39:53 +0000  copying file ./WorkOrderApp.momd/WorkOrderApp.mom ... 
+2019-12-27 06:39:53 +0000  939 bytes for ./WorkOrderApp.momd/WorkOrderApp.mom
+2019-12-27 06:39:53 +0000  copying file ./Assets.car ... 
+2019-12-27 06:39:53 +0000  701824 bytes for ./Assets.car
+2019-12-27 06:39:53 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+21391 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+1014192 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+742 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources ... 
+4698 bytes for ./Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+1786 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2164 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+1769 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+1844 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+1815 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2177 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+1764 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+1793 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+copying file ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager ... 
+1121024 bytes for ./Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+copying file ./Frameworks/IQKeyboardManager.framework/Info.plist ... 
+758 bytes for ./Frameworks/IQKeyboardManager.framework/Info.plist
+copying file ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:53 +0000  1798 bytes for ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Toast_Swift.framework/Toast_Swift ... 
+536800 bytes for ./Frameworks/Toast_Swift.framework/Toast_Swift
+copying file ./Frameworks/Toast_Swift.framework/Info.plist ... 
+744 bytes for ./Frameworks/Toast_Swift.framework/Info.plist
+copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2019-12-27 06:39:53 +0000  3973904 bytes for ./Frameworks/Alamofire.framework/Alamofire
+copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2019-12-27 06:39:53 +0000  740 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2019-12-27 06:39:53 +0000  3167968 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+742 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+copying file ./Frameworks/PKHUD.framework/_CodeSignature/CodeResources ... 
+2450 bytes for ./Frameworks/PKHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/PKHUD.framework/PKHUD ... 
+970208 bytes for ./Frameworks/PKHUD.framework/PKHUD
+copying file ./Frameworks/PKHUD.framework/PKHUDResources.bundle/Assets.car ... 
+452288 bytes for ./Frameworks/PKHUD.framework/PKHUDResources.bundle/Assets.car
+copying file ./Frameworks/PKHUD.framework/PKHUDResources.bundle/Info.plist ... 
+725 bytes for ./Frameworks/PKHUD.framework/PKHUDResources.bundle/Info.plist
+copying file ./Frameworks/PKHUD.framework/Info.plist ... 
+2019-12-27 06:39:53 +0000  732 bytes for ./Frameworks/PKHUD.framework/Info.plist
+2019-12-27 06:39:53 +0000  copying file ./embedded.mobileprovision ... 
+2019-12-27 06:39:53 +0000  17805 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2019-12-27 06:39:53 +0000  1756 bytes for ./Info.plist
+2019-12-27 06:39:53 +0000  copying file ./PkgInfo ... 
+2019-12-27 06:39:53 +0000  8 bytes for ./PkgInfo
+2019-12-27 06:39:53 +0000  /usr/bin/ditto exited with 0
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f969e3b1fe0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f969c138810:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f967fa5e6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f969c6242b0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f969d45d2b0; bundleID='org.cocoapods.IQKeyboardManager', path='<DVTFilePath:0x7f969e61fa70:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3e0f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.IQKeyboardManager', executablePath='<DVTFilePath:0x7f969d31f1d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f968f9aab50; bundleID='org.cocoapods.PKHUD', path='<DVTFilePath:0x7f969bb71060:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969c78d810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.PKHUD', executablePath='<DVTFilePath:0x7f969e3b2180:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f969c29d750; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7f969c65e5f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969d062fc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7f969ca0c700:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f969d0677d0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7f969c2e6a10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3ac3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7f969e27f2a0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f969cf5b140; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x7f969d55ca10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3b4980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x7f96992c2260:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionSymbolsStep
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionAppThinningStep
+2019-12-27 06:39:53 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionArchThinningStep
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "IQKeyboardManager" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "PKHUD" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "SDWebImage" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "Toast_Swift" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Running /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/WorkOrderApp' '-verify_arch' 'arm64e'
+2019-12-27 06:39:53 +0000  /Users/mac/Documents/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 06:39:53 +0000  Skipping architecture thinning for item "WorkOrderApp" because arch "arm64e" wasn't found
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionODRStep
+2019-12-27 06:39:53 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f969e3b1fe0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f969c138810:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f967fa5e6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969bfbfa20; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f969c6242b0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f969d45d2b0; bundleID='org.cocoapods.IQKeyboardManager', path='<DVTFilePath:0x7f969e61fa70:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3e0f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d089670; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.IQKeyboardManager', executablePath='<DVTFilePath:0x7f969d31f1d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f968f9aab50; bundleID='org.cocoapods.PKHUD', path='<DVTFilePath:0x7f969bb71060:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969c78d810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f967fa76f10; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.PKHUD', executablePath='<DVTFilePath:0x7f969e3b2180:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f969c29d750; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7f969c65e5f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969d062fc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f967fa75d00; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7f969ca0c700:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f969d0677d0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7f969c2e6a10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3ac3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d089330; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7f969e27f2a0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f969cf5b140; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x7f969d55ca10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3b4980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969e04b690; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x7f96992c2260:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>
+2019-12-27 06:39:53 +0000  Running /usr/bin/xattr '-crs' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app'
+2019-12-27 06:39:54 +0000  /usr/bin/xattr exited with 0
+2019-12-27 06:39:54 +0000  Processing step: IDEDistributionCodesignStep
+2019-12-27 06:39:54 +0000  Entitlements for <IDEDistributionItem: 0x7f969e3b1fe0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f969c138810:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f967fa5e6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f967fa77fd0; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f969c6242b0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969e3b1fe0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f969c138810:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f967fa5e6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d08f220; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f969c6242b0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~Rda2oD
+2019-12-27 06:39:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~Rda2oD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Alamofire.framework'
+2019-12-27 06:39:54 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Alamofire]
+2019-12-27 06:39:54 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:54 +0000  Entitlements for <IDEDistributionItem: 0x7f969d45d2b0; bundleID='org.cocoapods.IQKeyboardManager', path='<DVTFilePath:0x7f969e61fa70:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3e0f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969c2a6920; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.IQKeyboardManager', executablePath='<DVTFilePath:0x7f969d31f1d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969d45d2b0; bundleID='org.cocoapods.IQKeyboardManager', path='<DVTFilePath:0x7f969e61fa70:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3e0f40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d078d90; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.IQKeyboardManager', executablePath='<DVTFilePath:0x7f969d31f1d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~vbAdH7
+2019-12-27 06:39:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~vbAdH7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework'
+2019-12-27 06:39:54 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.IQKeyboardManager]
+2019-12-27 06:39:54 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:54 +0000  Entitlements for <IDEDistributionItem: 0x7f968f9aab50; bundleID='org.cocoapods.PKHUD', path='<DVTFilePath:0x7f969bb71060:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969c78d810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d08ff40; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.PKHUD', executablePath='<DVTFilePath:0x7f969e3b2180:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7f968f9aab50; bundleID='org.cocoapods.PKHUD', path='<DVTFilePath:0x7f969bb71060:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969c78d810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d08fa20; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.PKHUD', executablePath='<DVTFilePath:0x7f969e3b2180:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~QlKXie
+2019-12-27 06:39:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~QlKXie' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/PKHUD.framework'
+2019-12-27 06:39:55 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/PKHUD.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.PKHUD]
+2019-12-27 06:39:55 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:55 +0000  Entitlements for <IDEDistributionItem: 0x7f969c29d750; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7f969c65e5f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969d062fc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969c2a6920; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7f969ca0c700:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969c29d750; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7f969c65e5f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969d062fc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d078d90; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7f969ca0c700:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~UREBSg
+2019-12-27 06:39:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~UREBSg' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework'
+2019-12-27 06:39:55 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SDWebImage]
+2019-12-27 06:39:55 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:55 +0000  Entitlements for <IDEDistributionItem: 0x7f969d0677d0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7f969c2e6a10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3ac3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d215db0; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7f969e27f2a0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969d0677d0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7f969c2e6a10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3ac3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d078d90; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7f969e27f2a0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~GmHZDI
+2019-12-27 06:39:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~GmHZDI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework'
+2019-12-27 06:39:55 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyJSON]
+2019-12-27 06:39:55 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:55 +0000  Entitlements for <IDEDistributionItem: 0x7f969cf5b140; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x7f969d55ca10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3b4980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969c2a6920; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x7f96992c2260:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 06:39:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969cf5b140; bundleID='org.cocoapods.Toast-Swift', path='<DVTFilePath:0x7f969d55ca10:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969e3b4980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969d078d90; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='(null)', teamID='4AZTABRHYP', identifier='org.cocoapods.Toast-Swift', executablePath='<DVTFilePath:0x7f96992c2260:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~R46jGB
+2019-12-27 06:39:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~R46jGB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework'
+2019-12-27 06:39:55 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Toast-Swift]
+2019-12-27 06:39:55 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:55 +0000  Entitlements for <IDEDistributionItem: 0x7f969c62e7c0; bundleID='com.WorkOrderApp', path='<DVTFilePath:0x7f96997e02f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969cf58460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969c4c1ee0; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='{
+    "application-identifier" = "4AZTABRHYP.com.WorkOrderApp";
+    "com.apple.developer.team-identifier" = 4AZTABRHYP;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "4AZTABRHYP.com.WorkOrderApp"
+    );
+}', teamID='4AZTABRHYP', identifier='com.WorkOrderApp', executablePath='<DVTFilePath:0x7f969e2e51d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/WorkOrderApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "4AZTABRHYP.com.WorkOrderApp";
+    "com.apple.developer.team-identifier" = 4AZTABRHYP;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "4AZTABRHYP.com.WorkOrderApp"
+    );
+}
+2019-12-27 06:39:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7f969c62e7c0; bundleID='com.WorkOrderApp', path='<DVTFilePath:0x7f96997e02f0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f969cf58460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f969ca2eb30; name='Apple Development: Phidelia Mwangangi (744PDKZ54U)', hash='D852BF5C99402B5091E5588B57BF937BC514F1AC', serialNumber='B5FE4D6921C416E', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-17 06:33:25 +0000''>', entitlements='{
+    "application-identifier" = "4AZTABRHYP.com.WorkOrderApp";
+    "com.apple.developer.team-identifier" = 4AZTABRHYP;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "4AZTABRHYP.com.WorkOrderApp"
+    );
+}', teamID='4AZTABRHYP', identifier='com.WorkOrderApp', executablePath='<DVTFilePath:0x7f969e2e51d0:'/Users/mac/Library/Developer/Xcode/Archives/2019-12-27/WorkOrderApp 27-12-19, 12.09 PM.xcarchive/Products/Applications/WorkOrderApp.app/WorkOrderApp'>', hardenedRuntime='0'>'> to: /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~YrRgvF
+2019-12-27 06:39:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D852BF5C99402B5091E5588B57BF937BC514F1AC' '--entitlements' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/entitlements~~~YrRgvF' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app'
+2019-12-27 06:39:55 +0000  /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root/Payload/WorkOrderApp.app: signed app bundle with Mach-O thin (arm64) [com.WorkOrderApp]
+2019-12-27 06:39:55 +0000  /usr/bin/codesign exited with 0
+2019-12-27 06:39:55 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 06:39:55 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-12-27 06:39:55 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root' '/var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Packages/WorkOrderApp.ipa'
+2019-12-27 06:39:55 +0000  >>> Copying /var/folders/kk/yltwd79d6k391804xs8znphr0000gn/T/XcodeDistPipeline.~~~ABI2ZL/Root 
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  17155 bytes for ./Payload/WorkOrderApp.app/_CodeSignature/CodeResources
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/WorkOrderApp ... 
+2019-12-27 06:39:55 +0000  403104 bytes for ./Payload/WorkOrderApp.app/WorkOrderApp
+copying file ./Payload/WorkOrderApp.app/AppIcon60x60@2x.png ... 
+2019-12-27 06:39:55 +0000  15466 bytes for ./Payload/WorkOrderApp.app/AppIcon60x60@2x.png
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/AfterWorkVc.nib ... 
+2019-12-27 06:39:55 +0000  1105 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/AfterWorkVc.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/DatePickerPopupViewController.nib ... 
+2019-12-27 06:39:55 +0000  1063 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/DatePickerPopupViewController.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/SignatVc.nib ... 
+2019-12-27 06:39:55 +0000  1020 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/SignatVc.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/hTq-JW-TAL-view-UvZ-hK-JSy.nib ... 
+2019-12-27 06:39:55 +0000  11110 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/hTq-JW-TAL-view-UvZ-hK-JSy.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/PdfVc.nib ... 
+2019-12-27 06:39:55 +0000  1014 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/PdfVc.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/rWH-ud-Hdd-view-Oa7-4g-S9Z.nib ... 
+2019-12-27 06:39:55 +0000  6373 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/rWH-ud-Hdd-view-Oa7-4g-S9Z.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/UINavigationController-PFr-RQ-bRP.nib ... 
+2019-12-27 06:39:55 +0000  1828 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/UINavigationController-PFr-RQ-bRP.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/BeforeWorkVc.nib ... 
+2019-12-27 06:39:55 +0000  1107 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/BeforeWorkVc.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-12-27 06:39:55 +0000  34380 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/dpu-97-vbT-view-WXr-AL-acn.nib ... 
+2019-12-27 06:39:55 +0000  11436 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/dpu-97-vbT-view-WXr-AL-acn.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/FormVcViewController.nib ... 
+2019-12-27 06:39:55 +0000  1045 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/FormVcViewController.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/ay0-di-PYj-view-TZW-EI-8dL.nib ... 
+2019-12-27 06:39:55 +0000  10865 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/ay0-di-PYj-view-TZW-EI-8dL.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
+511 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/fNW-Yl-nkm-view-PnK-2G-WUc.nib ... 
+2019-12-27 06:39:55 +0000  5335 bytes for ./Payload/WorkOrderApp.app/Base.lproj/Main.storyboardc/fNW-Yl-nkm-view-PnK-2G-WUc.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-12-27 06:39:55 +0000  2015 bytes for ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-12-27 06:39:55 +0000  896 bytes for ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-12-27 06:39:55 +0000  258 bytes for ./Payload/WorkOrderApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/WorkOrderApp.app/WorkOrderApp.momd/WorkOrderApp.omo ... 
+2019-12-27 06:39:55 +0000  1664 bytes for ./Payload/WorkOrderApp.app/WorkOrderApp.momd/WorkOrderApp.omo
+copying file ./Payload/WorkOrderApp.app/WorkOrderApp.momd/VersionInfo.plist ... 
+2019-12-27 06:39:55 +0000  207 bytes for ./Payload/WorkOrderApp.app/WorkOrderApp.momd/VersionInfo.plist
+copying file ./Payload/WorkOrderApp.app/WorkOrderApp.momd/WorkOrderApp.mom ... 
+2019-12-27 06:39:55 +0000  939 bytes for ./Payload/WorkOrderApp.app/WorkOrderApp.momd/WorkOrderApp.mom
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Assets.car ... 
+2019-12-27 06:39:55 +0000  701824 bytes for ./Payload/WorkOrderApp.app/Assets.car
+copying file ./Payload/WorkOrderApp.app/AppIcon76x76@2x~ipad.png ... 
+2019-12-27 06:39:55 +0000  21391 bytes for ./Payload/WorkOrderApp.app/AppIcon76x76@2x~ipad.png
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  1798 bytes for ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2019-12-27 06:39:55 +0000  384000 bytes for ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2019-12-27 06:39:55 +0000  742 bytes for ./Payload/WorkOrderApp.app/Frameworks/SwiftyJSON.framework/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  4698 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+2019-12-27 06:39:55 +0000  1786 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2019-12-27 06:39:55 +0000  2164 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+2019-12-27 06:39:55 +0000  1769 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2019-12-27 06:39:55 +0000  1844 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2019-12-27 06:39:55 +0000  1815 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2019-12-27 06:39:55 +0000  2177 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+2019-12-27 06:39:55 +0000  1764 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2019-12-27 06:39:55 +0000  1793 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager ... 
+2019-12-27 06:39:55 +0000  341504 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/IQKeyboardManager
+copying file ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/Info.plist ... 
+2019-12-27 06:39:55 +0000  758 bytes for ./Payload/WorkOrderApp.app/Frameworks/IQKeyboardManager.framework/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  1798 bytes for ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift ... 
+2019-12-27 06:39:55 +0000  221856 bytes for ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Toast_Swift
+copying file ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Info.plist ... 
+2019-12-27 06:39:55 +0000  744 bytes for ./Payload/WorkOrderApp.app/Frameworks/Toast_Swift.framework/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  1798 bytes for ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire ... 
+2019-12-27 06:39:55 +0000  1402448 bytes for ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/Info.plist ... 
+2019-12-27 06:39:55 +0000  740 bytes for ./Payload/WorkOrderApp.app/Frameworks/Alamofire.framework/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  1798 bytes for ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2019-12-27 06:39:55 +0000  795616 bytes for ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/SDWebImage
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/Info.plist ... 
+742 bytes for ./Payload/WorkOrderApp.app/Frameworks/SDWebImage.framework/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/_CodeSignature/CodeResources ... 
+2019-12-27 06:39:55 +0000  2450 bytes for ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD ... 
+2019-12-27 06:39:55 +0000  306832 bytes for ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUD
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUDResources.bundle/Assets.car ... 
+2019-12-27 06:39:55 +0000  452288 bytes for ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUDResources.bundle/Assets.car
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUDResources.bundle/Info.plist ... 
+725 bytes for ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/PKHUDResources.bundle/Info.plist
+copying file ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/Info.plist ... 
+2019-12-27 06:39:55 +0000  732 bytes for ./Payload/WorkOrderApp.app/Frameworks/PKHUD.framework/Info.plist
+copying file ./Payload/WorkOrderApp.app/embedded.mobileprovision ... 
+2019-12-27 06:39:55 +0000  17805 bytes for ./Payload/WorkOrderApp.app/embedded.mobileprovision
+copying file ./Payload/WorkOrderApp.app/Info.plist ... 
+2019-12-27 06:39:55 +0000  1756 bytes for ./Payload/WorkOrderApp.app/Info.plist
+2019-12-27 06:39:55 +0000  copying file ./Payload/WorkOrderApp.app/PkgInfo ... 
+8 bytes for ./Payload/WorkOrderApp.app/PkgInfo
+2019-12-27 06:39:55 +0000  /usr/bin/ditto exited with 0
+2019-12-27 06:39:55 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-12-27 06:39:55 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-12-27 06:39:55 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-12-27 06:39:55 +0000  Processing step: IDEDistributionCreateManifestStep

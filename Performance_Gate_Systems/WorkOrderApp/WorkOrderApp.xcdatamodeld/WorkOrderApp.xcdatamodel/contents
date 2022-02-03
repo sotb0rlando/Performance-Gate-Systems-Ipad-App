@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Afterimage" representedClassName="Afterimage" syncable="YES" codeGenerationType="class">
+        <attribute name="imagea" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Beforeimage" representedClassName="Beforeimage" syncable="YES" codeGenerationType="class">
+        <attribute name="imageb" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Signatureimage" representedClassName="Signatureimage" syncable="YES" codeGenerationType="class">
+        <attribute name="images" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Afterimage" positionX="-63" positionY="-9" width="128" height="58"/>
+        <element name="Beforeimage" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="Signatureimage" positionX="-54" positionY="0" width="128" height="58"/>
+    </elements>
+</model>
